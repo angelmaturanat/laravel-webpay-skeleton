@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\WebpayController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [WebpayController::class, 'index'])->name('webpay.plus.index');
+Route::post('webpay/plus/init', [WebpayController::class, 'init'])->name('webpay.plus.init');
+Route::post('webpay/plus/response', [WebpayController::class, 'response'])->name('webpay.plus.response');
+Route::post('webpay/plus/finish', [WebpayController::class, 'finish'])->name('webpay.plus.finish');
