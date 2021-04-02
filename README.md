@@ -43,3 +43,9 @@ $ php artisan serv
 Now we must access the following url [http://127.0.0.1:8000/](http://127.0.0.1:8000/) to see the application test page.
 
 ![Main Test Page](https://github.com/angelmaturanat/laravel-webpay-skeleton/blob/main/Readme-image-1.png)
+
+
+## Credits
+
+[Github - Transbank SDK's documentation:](https://github.com/TransbankDevelopers)
+[Official page - Transbank SDK's documentation:](https://www.transbankdevelopers.cl/documentacion/webpay-plus)
