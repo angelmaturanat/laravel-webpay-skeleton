@@ -47,5 +47,5 @@ Now we must access the following url [http://127.0.0.1:8000/](http://127.0.0.1:8
 
 ## Credits
 
-Github - Transbank SDK's documentation:[https://github.com/TransbankDevelopers](https://github.com/TransbankDevelopers)
-Official page - Transbank SDK's documentation: [https://www.transbankdevelopers.cl/documentacion/webpay-plus](https://www.transbankdevelopers.cl/documentacion/webpay-plus)
+- Github - Transbank SDK's documentation:[https://github.com/TransbankDevelopers](https://github.com/TransbankDevelopers)
+- Official page - Transbank SDK's documentation: [https://www.transbankdevelopers.cl/documentacion/webpay-plus](https://www.transbankdevelopers.cl/documentacion/webpay-plus)
